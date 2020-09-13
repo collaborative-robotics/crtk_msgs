@@ -8,8 +8,10 @@ project(crtk_msgs)
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
-  std_msgs
+  roscpp
+  rospy
   message_generation
+  std_msgs
 )
 
 ## System dependencies are found with CMake's conventions
@@ -70,6 +72,7 @@ generate_messages(
   DEPENDENCIES
   std_msgs
   crtk_msgs
+#   trigger_operating_state.srv
 )
 
 ################################################
