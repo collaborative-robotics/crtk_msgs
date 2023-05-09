@@ -12,6 +12,7 @@ find_package(catkin REQUIRED COMPONENTS
   rospy
   message_generation
   std_msgs
+  geometry_msgs
 )
 
 ## System dependencies are found with CMake's conventions
@@ -58,6 +59,8 @@ add_message_files(
 add_service_files(
   FILES
   TriggerOperatingState.srv
+  QueryForwardKinematics.srv
+  QueryInverseKinematics.srv
 )
 
 ## Generate actions in the 'action' folder
@@ -71,8 +74,8 @@ add_service_files(
 generate_messages(
   DEPENDENCIES
   std_msgs
+  geometry_msgs
   crtk_msgs
-#   trigger_operating_state.srv
 )
 
 ################################################
