@@ -50,14 +50,14 @@ find_package(catkin REQUIRED COMPONENTS
 ## Generate messages in the 'msg' folder
 add_message_files(
   FILES
-  operating_state.msg
+  OperatingState.msg
   StringStamped.msg
 )
 
 ## Generate services in the 'srv' folder
 add_service_files(
   FILES
-  trigger_operating_state.srv
+  TriggerOperatingState.srv
 )
 
 ## Generate actions in the 'action' folder
