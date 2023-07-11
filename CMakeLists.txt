@@ -55,6 +55,7 @@ add_message_files(
   StringStamped.msg
   CartesianImpedanceHalfPlaneGains.msg
   CartesianImpedance.msg
+  CartesianState.msg
 )
 
 ## Generate services in the 'srv' folder
