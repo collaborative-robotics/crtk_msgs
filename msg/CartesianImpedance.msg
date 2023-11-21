@@ -1,0 +1,11 @@
+Header header
+
+# vf pos & ori
+geometry_msgs/Quaternion  force_orientation
+geometry_msgs/Vector3     force_position
+geometry_msgs/Quaternion  torque_orientation
+
+crtk_msgs/CartesianImpedanceHalfPlaneGains position_positive
+crtk_msgs/CartesianImpedanceHalfPlaneGains position_negative
+crtk_msgs/CartesianImpedanceHalfPlaneGains orientation_positive
+crtk_msgs/CartesianImpedanceHalfPlaneGains orientation_negative

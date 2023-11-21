@@ -1,5 +1,5 @@
-cmake_minimum_required(VERSION 2.8.3)
-project(crtk_msgs)
+cmake_minimum_required(VERSION 3.1)
+project(crtk_msgs VERSION 1.1.0)
 
 ## Compile as C++11, supported in ROS Kinetic and newer
 # add_compile_options(-std=c++11)
@@ -12,6 +12,7 @@ find_package(catkin REQUIRED COMPONENTS
   rospy
   message_generation
   std_msgs
+  geometry_msgs
 )
 
 ## System dependencies are found with CMake's conventions
@@ -50,14 +51,18 @@ find_package(catkin REQUIRED COMPONENTS
 ## Generate messages in the 'msg' folder
 add_message_files(
   FILES
-  operating_state.msg
+  OperatingState.msg
   StringStamped.msg
+  CartesianImpedanceHalfPlaneGains.msg
+  CartesianImpedance.msg
 )
 
 ## Generate services in the 'srv' folder
 add_service_files(
   FILES
-  trigger_operating_state.srv
+  TriggerOperatingState.srv
+  QueryForwardKinematics.srv
+  QueryInverseKinematics.srv
 )
 
 ## Generate actions in the 'action' folder
@@ -71,8 +76,8 @@ add_service_files(
 generate_messages(
   DEPENDENCIES
   std_msgs
+  geometry_msgs
   crtk_msgs
-#   trigger_operating_state.srv
 )
 
 ################################################
