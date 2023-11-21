@@ -1,7 +1,7 @@
 Change log
 ==========
 
-1.1.0 (2023-11-xx)
+1.1.0 (2023-11-21)
 ==================
 
 * Renamed `msg/operating_state` to `msg/OperatingState` and
