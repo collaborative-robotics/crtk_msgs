@@ -1,2 +1,2 @@
-Header     header
-string	   string
+std_msgs/Header header
+string	        string
