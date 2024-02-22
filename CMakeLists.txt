@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.1)
-project(crtk_msgs VERSION 1.0.0)
+project(crtk_msgs VERSION 1.1.0)
 
 ## Compile as C++11, supported in ROS Kinetic and newer
 # add_compile_options(-std=c++11)
