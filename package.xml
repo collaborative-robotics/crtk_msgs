@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package format="3">
   <name>crtk_msgs</name>
-  <version>1.1.0</version>
+  <version>1.2.0</version>
   <description>The crtk_msgs package</description>
   <license>MIT</license>
   <maintainer email="alewi@uw.edu">Andy Lewis</maintainer>

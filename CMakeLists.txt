@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
-project(crtk_msgs VERSION 1.1.0)
+project(crtk_msgs VERSION 1.2.0)
 
 # first test for ROS1
 set (ROS1_depends std_msgs geometry_msgs)
