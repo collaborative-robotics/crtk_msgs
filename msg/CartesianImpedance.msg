@@ -1,4 +1,4 @@
-Header header
+std_msgs/Header header
 
 # vf pos & ori
 geometry_msgs/Quaternion  force_orientation
