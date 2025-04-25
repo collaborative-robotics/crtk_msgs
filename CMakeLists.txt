@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.10)
+cmake_minimum_required(VERSION 3.16)
 project(crtk_msgs VERSION 1.2.0)
 
 # first test for ROS1
