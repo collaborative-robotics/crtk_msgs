@@ -16,6 +16,10 @@ if (catkin_FOUND)
     StringStamped.msg
     CartesianImpedanceHalfPlaneGains.msg
     CartesianImpedance.msg
+    CartesianState.msg
+    SetpointMode.msg
+    CartesianServo.msg
+    JointServo.msg
     )
 
   ## Generate services in the 'srv' folder
@@ -48,6 +52,10 @@ else (catkin_FOUND)
       msg/StringStamped.msg
       msg/CartesianImpedanceHalfPlaneGains.msg
       msg/CartesianImpedance.msg
+      msg/CartesianState.msg
+      msg/SetpointMode.msg
+      msg/CartesianServo.msg
+      msg/JointServo.msg
       srv/TriggerOperatingState.srv
       srv/QueryForwardKinematics.srv
       srv/QueryInverseKinematics.srv
