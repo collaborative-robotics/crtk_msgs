@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.10)
+cmake_minimum_required(VERSION 3.16)
 project(crtk_msgs VERSION 1.2.0)
 
 # first test for ROS1
@@ -16,6 +16,10 @@ if (catkin_FOUND)
     StringStamped.msg
     CartesianImpedanceHalfPlaneGains.msg
     CartesianImpedance.msg
+    CartesianState.msg
+    SetpointMode.msg
+    CartesianServo.msg
+    JointServo.msg
     )
 
   ## Generate services in the 'srv' folder
@@ -48,6 +52,10 @@ else (catkin_FOUND)
       msg/StringStamped.msg
       msg/CartesianImpedanceHalfPlaneGains.msg
       msg/CartesianImpedance.msg
+      msg/CartesianState.msg
+      msg/SetpointMode.msg
+      msg/CartesianServo.msg
+      msg/JointServo.msg
       srv/TriggerOperatingState.srv
       srv/QueryForwardKinematics.srv
       srv/QueryInverseKinematics.srv
