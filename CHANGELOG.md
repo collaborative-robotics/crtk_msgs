@@ -1,6 +1,12 @@
 Change log
 ==========
 
+1.3.0 (2025-12-18)
+==================
+
+* Bumped CMake minimum required to 3.16
+* Cartesian/joint state servo messages
+
 1.2.0 (2024-08-09)
 ==================
 
